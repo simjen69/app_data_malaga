@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.abadesa.malagestates"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Rio Estates</name>
+
+    <description>
+       Property in Andalucia, Spain. 
+    </description>
+
+    <author href="http://www.malagaestates.com" email="info@malagaestates.com">
+        Simon Chapman
+    </author>
+	
+	<icon src="icon.png" />
+<gap:splash src="splash.png" />
+
+<icon src="icon-72.png" width="72" height="72" />
+
+ <preference name="stay-in-webview" value="false" />
+
+<preference name="exit-on-suspend" value="false" />
+
+</widget>
